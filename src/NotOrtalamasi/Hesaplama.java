@@ -29,7 +29,7 @@ public class Hesaplama {
         double sonuc = (toplam / 6.0);
         System.out.println(sonuc);
 
-        String durum = sonuc >= 60 ? "Geçtiniz!" : "Kaldınız!";
+        String durum = sonuc >= 60 ? "Sınıfı Geçti!" : "Sınıfta Kaldı!";
         System.out.println(durum);
     }
     }
